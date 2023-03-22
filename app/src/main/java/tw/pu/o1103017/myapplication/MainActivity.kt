@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         txv = findViewById(R.id.txv)
         txv.setOnClickListener (){
-            if (txv.text == "你好不好吗？"){
-                txv.text = "不想知道"
+            if (txv.text == "彭定振？"){
+                txv.text = "帅哥"
             }else{
-                txv.text = "哈哈啊哈哈啊哈"
+                txv.text = "而呵呵"
             }
 
         }
